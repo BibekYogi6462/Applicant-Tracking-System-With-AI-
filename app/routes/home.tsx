@@ -14,9 +14,9 @@ export default function Home() {
   return <main className="bg-[url('/images/bg-main.svg')] bg-cover">
     <Navbar />
     <section className="main-section">
-      <div className="page-heading">
-        <h1>Track your Applications and Resume Ratings</h1>
-        <h2>Review your submissions and check AI_powered feedback</h2>
+      <div className="page-heading py-16">
+        <h1>Your Smart Hiring Companion</h1>
+        <h2 className="text-gradient">Shortlist resumes. Get AI insights. Hire better</h2>
       </div>
     {resumes.length> 0 && (
       <div className="resumes-section">
