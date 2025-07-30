@@ -20,9 +20,9 @@ import { Link } from "react-router";
 
 const Navbar = () => {
   return (
-    <nav className="flex justify-between items-center bg-[#1f2937] rounded-full py-4 px-8 w-full max-w-6xl mx-auto shadow-lg mt-4">
+    <nav className="flex justify-between items-center bg-[#363955dc] rounded-full py-4 px-8 w-full max-w-6xl mx-auto shadow-lg mt-4">
       <Link to="/">
-        <p className="text-3xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-sky-400 via-pink-500 to-indigo-400 py-1">
+        <p className="text-3xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-sky-400 via-pink-500 to-indigo-400 py-2">
           योग्यता
         </p>
       </Link> 
