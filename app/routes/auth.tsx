@@ -27,7 +27,7 @@ const auth = () => {
             <section className="flex flex-col gap-8 bg-white rounded-2xl p-10">
                 <div className="flex flex-col items-center gap-2 text-center">
                     <h1>Welcome</h1>
-                    <h2 className="bg-accent">Login to start your dream job</h2>
+                    <h2 className="bg-neutral-600">Login to start your dream job</h2>
                 </div>
 
                     <div>
